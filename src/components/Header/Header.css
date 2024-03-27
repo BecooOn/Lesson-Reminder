@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  background-image: linear-gradient(to right, #7c5242, #7abbae);
+}
+
+.header {
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* flex-direction: column; */
+  gap: 2rem;
+  width: 50%;
+}
+.logo {
+  margin-left: 3rem;
+  /* border: 2px solid red; */
+  text-align: center;
+  /* display: flex; */
+  width: 350px;
+}
+.title {
+  /* border: 2px solid blue; */
+  width: 400px;
+  text-align: center;
+}
